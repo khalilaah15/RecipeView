@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RecipeView</string>
+    <string name="deskripsi">Resep babi goreng yang beneran renyah diluar dan lembut di dalam. anti alot alot deh pokoknya</string>
+    <string name="bahan1"> 1) 300 gr Samcan Babi</string>
+    <string name="bahan2"> 2) 1 lbr Daun Salam</string>
+    <string name="bahan3"> 3) 1 sdm Garam untuk merebus</string>
+    <string name="bahan4"> 4) 1/2 sdt Lada Bumbu menggoreng</string>
+    <string name="bahan5"> 5) 1 sdm Garam untuk menggoreng</string>
+    <string name="bahan6"> 6) 1 sdm Cuka/ Air Jeruk Nipis</string>
+    <string name="langkah1"> 1) Cuci bersih samcan babi, lalu rebus dengan daun salam dan garam masak hingga kulit dan daging empuk. pastikan kulitnya bisa ditusuk garpu dengan mudah (jangan sampai terlalu lunak)</string>
+    <string name="langkah2"> 2) Buang ampas rebusan daging</string>
+    <string name="langkah3"> 3) Setelah daging empuk, angkat dan dinginkan. Kemudian tusuk2 kulit babi dengan garpu hingga keluar minyak (jangan sampai kulitnya rusak)</string>
+    <string name="langkah4"> 4) Campur garam untuk menggoreng dengan cuka dan lumuri ke kulit babi (hanya kulitnya saja)</string>
+    <string name="langkah5"> 5) Lalu goreng babi dengan posisi kulit dibawah dengan api kecil-sedang. Kemudian tutup, karena akan meletuk2. goreng hingga kulit menjadi kuning kecoklatan</string>
+    <string name="langkah6"> 6) Kemudian balik dan goreng bagian dagingnya hingga kuning kecoklatan juga. lalu angkat, dinginkan sebentar, potong dan sajikan.</string>
+    <string name="username">@khalilaah.15</string>
+</resources>

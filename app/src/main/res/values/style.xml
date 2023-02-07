@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextContent" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="TextContent.Black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextContent.Subtitle">
+        <item name="android:textColor">@color/colorSubtitle</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextContent.langkah">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="TextContent.image">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/babi"/>
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextContent.Black"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp"
+            android:textSize="32dp"
+            android:text="BABI GORENG"
+            android:textColor="@color/title"
+            android:textStyle="bold"/>
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:textSize="15dp"
+            android:text="Babi gurih yang renyah dan sehat"
+            android:id="@+id/babigurih"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="60dp"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@drawable/profil"/>
+
+            <TextView
+                android:id="@+id/fatimah"
+                style="@style/TextContent"
+                android:layout_toEndOf="@+id/profile_image"
+                android:layout_toRightOf="@+id/profile_image"
+                android:text="Khalilullah Nuraini"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/kha"
+                style="@style/TextContent"
+                android:layout_alignBottom="@id/fatimah"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="-25dp"
+                android:layout_toRightOf="@+id/profile_image"
+                android:text="@string/username"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/title"
+                android:visibility="visible"
+                android:layout_marginTop="75dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TextContent.Black"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="8dp"
+            android:textSize="15dp"
+            android:text="@string/deskripsi"
+            android:textColor="@color/deskripsi"
+            android:layout_marginTop="-5dp"/>
+
+        <ImageView
+            style="@style/TextContent"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/frame"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="Bahan-Bahan"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="2 orang"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:textColor="@color/deskripsi"
+            android:textSize="15sp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="@string/bahan1"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="@string/bahan2"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="@string/bahan2"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="@string/bahan3"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="@string/bahan4"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="@string/bahan5"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:text="@string/bahan6"
+            android:layout_marginTop="1dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/title"
+            android:visibility="visible"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+
+        <TextView
+            style="@style/TextContent"
+            android:text="Langkah-langkah"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            style="@style/TextContent.langkah"
+            android:text="@string/langkah1"/>
+
+        <ImageView
+            style="@style/TextContent.image"
+            android:id="@+id/langkahsatu"
+            android:src="@drawable/langkahsatu"/>
+
+        <TextView
+            style="@style/TextContent.langkah"
+            android:text="@string/langkah2"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            style="@style/TextContent.image"
+            android:id="@+id/langkahdua"
+            android:src="@drawable/langkahdua"/>
+
+        <TextView
+            style="@style/TextContent.langkah"
+            android:text="@string/langkah3"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            style="@style/TextContent.image"
+            android:id="@+id/langkahtiga"
+            android:src="@drawable/langkahtiga"/>
+
+        <TextView
+            style="@style/TextContent.langkah"
+            android:text="@string/langkah4"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            style="@style/TextContent.image"
+            android:id="@+id/langkahempat"
+            android:src="@drawable/langkahempat"/>
+
+        <TextView
+            style="@style/TextContent.langkah"
+            android:text="@string/langkah5"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            style="@style/TextContent.image"
+            android:id="@+id/langkahlima"
+            android:src="@drawable/langkahlima"/>
+
+        <TextView
+            style="@style/TextContent.langkah"
+            android:text="@string/langkah6"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            style="@style/TextContent.image"
+            android:id="@+id/langkahenam"
+            android:src="@drawable/langkahenam"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
